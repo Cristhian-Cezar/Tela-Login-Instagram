@@ -1,0 +1,26 @@
+@media only screen and (max-width: 800px) {
+    .container .phone img {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    footer {
+        display: none;
+    }    
+}
+
+
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    
+
+    footer .links-footer {
+    max-width: 60rem;
+    }
+
+    footer .links-footer a {
+        margin-left: 2rem;
+    }
+
+  }
